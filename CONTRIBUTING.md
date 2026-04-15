@@ -46,30 +46,26 @@ Use this format:
 ```yaml
 policies:
   - id: block-env-read
+    name: Block .env Reads
+    reason: This policy blocks attempts to read environment variable files that may contain secrets.
     path: policies/block-env-read.yaml
   - id: block-private-key-output
+    name: Block private key output
+    reason: This policy blocks attempts to print private key material.
     path: policies/block-private-key-output.yaml
 ```
 
 Rules:
 
 - each entry must have `id`
+- each entry must have `name`
+- each entry must have `reason`
 - each entry must have `path`
 - `path` must point to a file inside `policies/`
 - `id` must be globally unique across the repository
+- `name` should match the policy fragment
+- `reason` should match the policy fragment
 - keep entries sorted by `id`
-
-Do not duplicate display metadata in `index.yaml`.
-
-Do not add:
-- `name`
-- `summary`
-- `description`
-- `topic`
-- `tags`
-- `version`
-
-That metadata should come from the fragment file itself.
 
 ## Policy Fragment Format
 
@@ -193,6 +189,8 @@ To add a new policy:
    ```yaml
    policies:
      - id: block-env-read
+       name: Block .env Reads
+       reason: This policy blocks attempts to read environment variable files that may contain secrets.
        path: policies/block-env-read.yaml
    ```
 
@@ -217,7 +215,7 @@ Before opening a PR, verify:
 
 - the fragment has only top-level `policies`
 - every policy has a unique `id`
-- `index.yaml` contains the matching `id` and `path`
+- `index.yaml` contains the matching `id`, `name`, `reason`, and `path`
 - `index.yaml` is sorted by `id`
 - the file name matches the policy intent
 - `enabled` is `false`

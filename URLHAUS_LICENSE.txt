@@ -1,0 +1,158 @@
+abuse.ch website terms of use
+-----------------------------
+
+Effective Date: 4th November 2025  
+
+Last Updated: 4th November 2025
+
+These Terms of Use (“Terms”) set out important information about the abuse.ch platforms, which include:
+
+*   Malware Bazaar
+*   Feodo Tracker
+*   SSL Blacklist
+*   URLHaus
+*   ThreatFox
+*   YARAify
+
+(the “abuse.ch platforms”).
+
+Please read these Terms carefully as they affect your legal rights and responsibilities. By accessing or using the abuse.ch platforms (the “Platforms”), you agree to be bound by these Terms. If you do not accept these Terms, you must not use the Platforms.
+
+**THE ABUSE.CH PLATFORMS ARE PROVIDED FREE OF CHARGE, SUBJECT TO THE FAIR USE PRINCIPLES SET OUT IN THESE TERMS. ABUSE.CH RESERVES THE RIGHT IN ITS ABSOLUTE DISCRETION TO RESTRICT, REVOKE OR PREVENT ACCESS TO THE PLATFORMS WITHOUT NOTICE WHERE IN ITS REASONABLE OPINION THE FAIR USE PRINCIPLES ARE NOT RESPECTED.**
+
+### 1. Abouth abuse.ch Platforms
+
+* * *
+
+The abuse.ch Platforms are operated by **abuse.ch AG**, a company registered in Switzerland with UID CHE-172.684.863, whose registered office is at c/o Grant Thornton AG, Claridenstrasse 35, CH-8002 Zürich, Switzerland ("abuse.ch", "we", "us", "our").
+
+The Platforms are provided in collaboration with **Spamhaus Technology Limited** ("Spamhaus"), which acts as the primary licensee of the abuse.ch datasets.
+
+The following documents also form part of these Terms:
+
+*   Our Website Terms & Conditions which sets out the rules for using our website “abuse.ch”, and can be found here: [https://abuse.ch/terms-and-conditions/](https://abuse.ch/terms-and-conditions/ "abuse.ch Terms and Conditions")
+*   Our Cookie Policy, which sets out information about the cookies on our website “abuse.ch”, and can be found here: [https://abuse.ch/cookie-policy/](https://abuse.ch/cookie-policy/ "abuse.ch Cookie Policy")
+*   Submission policies for the abuse.ch platforms:
+    *   URLhaus: [https://urlhaus.abuse.ch/api/#policy](https://urlhaus.abuse.ch/api/#policy)
+    *   MalwareBazaar: [https://bazaar.abuse.ch/api/#policy](https://bazaar.abuse.ch/api/#policy)
+    *   ThreatFox: [https://threatfox.abuse.ch/faq/#policy](https://threatfox.abuse.ch/faq/#policy)
+    *   YARAify: [https://yaraify.abuse.ch/faq/#tos](https://yaraify.abuse.ch/faq/#tos)
+
+### 2. Authentication
+
+* * *
+
+2.1. User Access
+
+Access to the abuse.ch Platforms is provided only to:
+
+**Authenticated Users**: Users who have completed the authentication process.
+
+Please visit [https://auth.abuse.ch/](https://auth.abuse.ch/ "abuse.ch Authentication Portal") to authenticate your account.
+
+### 3. Fair use principles
+
+* * *
+
+3.1. General Use
+
+The Platforms are provided free of charge under the following Fair Use Principles:
+
+*   Authenticated Users may access the Platforms for not-for-profit purposes, subject to usage limitations imposed by abuse.ch and/or Spamhaus.
+*   Usage is measured in the form of queries made to the Platform APIs ("Queries").
+
+3.2. Query Volume Limits
+
+Your access is subject to Query Volume Limits, defined as volumes reasonably expected for non-commercial or non-profit purposes.
+
+*   Exceeding these limits may result in restricted access.
+*   Continued excessive usage may require a paid subscription (see Section 4 below).
+
+3.3. Exceptions for High-Value Contributors
+
+Authenticated Users may continue to use the Platforms beyond the Query Volume Limits free of charge if they are actively contributing high-quality data at sufficient volumes.
+
+Such free access is granted at our discretion and can be revoked on written notice.
+
+### 4. Commercial Use
+
+* * *
+
+Use of the Platforms by companies, networks, or individuals with commercial or for- profit needs may require a paid subscription, which will be managed by Spamhaus, and will be subject to separate terms and conditions.
+
+4.1. Contributor Policy for Commercial Users
+
+For a commercial user to qualify for free use:
+
+*   They must contribute consistently over a period of six months.
+*   During this period, the entity must subscribe and pay via Spamhaus.
+*   After six months, a commercial review, conducted by us and/or Spamhaus, acting in our or their sole discretion, will assess the volume and value of data contributions to determine continued access terms for the relevant user.
+
+### 5. Accuracy and Availability
+
+* * *
+
+We aim to provide reliable services but cannot guarantee that the Platforms will be fault-free. In case of faults, we will attempt to resolve them in a timely manner.
+
+### 6. Limitation of Liability
+
+* * *
+
+As the Platforms are made available free of charge to eligible users under these Terms, we or Spamhaus are not liable for any loss or damage resulting from your use of the Platforms.
+
+### 7. Acceptable Use Standards
+
+* * *
+
+7.1. The acceptable use standards set out in this section 7 apply to any material you upload or share to our Platforms (“User Content”).
+
+7.2. abuse.ch AG, in cooperation with Spamhaus, will determine, in its discretion, whether any User Content you upload or share to the Platforms breaches these acceptable use standards.
+
+7.3. You may not:
+
+*   copy, adapt, alter, translate, modify or make derivative works based on the Platforms and/or any other of our or Spamhaus’ intellectual property, without the express consent of abuse.ch and/or Spamhaus, as applicable;
+*   modify, decompile, reverse engineer, disassemble, or otherwise derive or determine or attempt to derive or determine the source code (or any underlying ideas, algorithms, structure or organisation) of the Platforms, except and only to the extent that such activity is expressly permitted by applicable law;
+*   interfere with or disrupt the integrity or performance of the Platforms;
+*   attempt to introduce a virus or any other harmful software or data component into the Platforms except where such Malware forms part of a valid good faith submission of a sample to the Platforms;
+*   attempt to gain unauthorised access to the Platforms or their related systems or networks, or perform unauthorised penetrating testing on the Platforms;
+*   use any high volume automatic, electronic or manual process to access, search or harvest information from the Platforms (including without limitation robots, spiders or scripts);
+*   alter, remove, or obscure any copyright notice, digital watermarks, proprietary legends or other notice included in the Platforms;
+*   Use the Platforms:
+
+*   in any way that breaches any local, national or international law or regulation;
+*   in any way that is unlawful or fraudulent or has any unlawful or fraudulent purpose or effect;
+*   in a manner that infringes on the intellectual property rights, publicity rights, or privacy rights of any third party, or to store or transfer defamatory, trade libelous or otherwise unlawful data;
+*   for the purpose of harming or attempting to harm minors in any way; or
+*   to bully, insult, intimidate or humiliate any person.
+
+7.4. User Content must not:
+
+*   be obscene, offensive, hateful or inflammatory;
+*   infringe any copyright, database right or trade mark of any other person;
+*   breach any legal duty owed to a third party, such as a contractual duty or a duty of confidence;
+*   contain illegal content or promote any illegal content or activity;
+*   be in contempt of court;
+*   be threatening, abuse or invade another's privacy;
+*   be likely to harass any other person;
+*   impersonate any person or misrepresent your identity or affiliation with any person;
+*   advocate, promote, incite any party to commit, or assist any unlawful or criminal act such as (by way of example only) copyright infringement or computer misuse;
+*   be pornographic;
+*   contain content which:
+
+*   depicts real or realistic serious violence against a person or animal (real or not)
+*   depicts the real or realistic serious injury of a person or animal (real or not) in graphic detail; or
+*   has a grossly offensive, indecent, obscene or menacing message intending to cause offence, menace, distress or anxiety.
+
+### 8. Changes to These Terms
+
+* * *
+
+We reserve the right to amend these Terms at any time. Changes will be effective upon posting. Continued use of the Platforms constitutes acceptance of the revised Terms.
+
+### 9. Governing Law and Jurisdiction
+
+* * *
+
+These Terms are subject to English law. Any dispute arising out of or in connection with these Terms will be subject to the exclusive jurisdiction of the English courts.
+
+For any questions go to [https://www.spamhaus.com/abuse-ch/#contact-us](https://www.spamhaus.com/abuse-ch/#contact-us)

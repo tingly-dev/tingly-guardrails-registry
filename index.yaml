@@ -1,27 +1,45 @@
 policies:
   - id: block-malicious-cargo-packages
+    name: Block known malicious Cargo packages
+    reason: This policy blocks package names already reported as malicious in the OpenSSF Malicious Packages dataset for Cargo.
     path: policies/malicious_cargo_packages.yaml
 
   - id: block-malicious-npm-packages
+    name: Block known malicious npm packages
+    reason: This policy blocks package names already reported as malicious in the OpenSSF Malicious Packages dataset for npm.
     path: policies/malicious_npm_packages.yaml
 
   - id: block-malicious-nuget-packages
+    name: Block known malicious NuGet packages
+    reason: This policy blocks package names already reported as malicious in the OpenSSF Malicious Packages dataset for NuGet.
     path: policies/malicious_nuget_packages.yaml
 
   - id: block-malicious-pypi-packages
+    name: Block known malicious PyPI packages
+    reason: This policy blocks package names already reported as malicious in the OpenSSF Malicious Packages dataset for PyPI.
     path: policies/malicious_pypi_packages.yaml
 
   - id: block-malicious-rubygems-packages
+    name: Block known malicious RubyGems packages
+    reason: This policy blocks package names already reported as malicious in the OpenSSF Malicious Packages dataset for RubyGems.
     path: policies/malicious_rubygems_packages.yaml
 
   - id: block-request-cloud-credential-bundle
+    name: Block request cloud credential bundles
+    reason: This policy blocks request content that looks like bundled cloud credentials or private key material.
     path: policies/request_secret_egress.yaml
 
   - id: block-request-dotenv-egress
+    name: Block request dotenv egress
+    reason: This policy blocks request content that looks like a dotenv or environment secret dump.
     path: policies/request_secret_egress.yaml
 
   - id: block-request-secret-egress
+    name: Block request secret egress
+    reason: This policy blocks request content that appears to contain high-risk secrets.
     path: policies/request_secret_egress.yaml
 
   - id: block-urlhaus-malicious-hosts
+    name: Block URLhaus malicious hosts
+    reason: This policy blocks shell network requests to malicious hosts derived from URLhaus.
     path: policies/urlhaus_blocklist.yaml
