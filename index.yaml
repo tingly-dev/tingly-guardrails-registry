@@ -1,0 +1,27 @@
+policies:
+  - id: block-malicious-cargo-packages
+    path: policies/malicious_cargo_packages.yaml
+
+  - id: block-malicious-npm-packages
+    path: policies/malicious_npm_packages.yaml
+
+  - id: block-malicious-nuget-packages
+    path: policies/malicious_nuget_packages.yaml
+
+  - id: block-malicious-pypi-packages
+    path: policies/malicious_pypi_packages.yaml
+
+  - id: block-malicious-rubygems-packages
+    path: policies/malicious_rubygems_packages.yaml
+
+  - id: block-request-cloud-credential-bundle
+    path: policies/request_secret_egress.yaml
+
+  - id: block-request-dotenv-egress
+    path: policies/request_secret_egress.yaml
+
+  - id: block-request-secret-egress
+    path: policies/request_secret_egress.yaml
+
+  - id: block-urlhaus-malicious-hosts
+    path: policies/urlhaus_blocklist.yaml
