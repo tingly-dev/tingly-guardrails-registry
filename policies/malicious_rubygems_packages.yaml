@@ -7,7 +7,6 @@ policies:
     verdict: block
     reason: This policy blocks package names already reported as malicious in the OpenSSF Malicious Packages dataset for RubyGems.
     match:
-      tool_names: [bash]
       actions:
         include: [install]
       terms:

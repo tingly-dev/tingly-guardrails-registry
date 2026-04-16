@@ -3,7 +3,7 @@ policies:
     name: Block URLhaus malicious hosts
     groups: [default]
     enabled: false
-    kind: command_execution
+    kind: resource_access
     verdict: block
     reason: This policy blocks shell network requests to malicious hosts derived from URLhaus.
     match:
